@@ -1,0 +1,38 @@
+body{
+    background-color: #0f1010;   /* 6digit alpha numeric */
+    font-size: 100%;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+
+.wrapper{
+    /* background-color: #6f6d69; */
+    background-color: #f9f1f1;
+    width: 1000px; /* to maintain compatability with older screen resolultions*/
+    margin: 0 auto;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color:crimson;
+    
+    /* below for backward compatability of older browsers*/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+}
+
+
+body .hero{
+    height: 400px;
+    width: 350px;
+    /* background: url('C:\Users\John Galt\Documents\Pheonix Works\Portfolio\PICTURES\LondonBridge.png')  center no-repeat;*/
+    background: url('../PICTURES/LondonBridge.png') center no-repeat;
+    margin: 5;
+}
+
+header .Header{
+    
+    font-size:100%;
+    font-family: 'tahoma';
+    padding: 5px;
+}
